@@ -1,9 +1,9 @@
 :root{
     --cor-fundo: #01080E;
     --cor-principal: #0b0d20;
-    --cor-secundaria: #212333;
+    --cor-secundaria: #9d0dc9;
     --cor-destaque: #2dbefd;
-    --cor-texto: #D7F9FF;
+    --cor-texto: #1c93b8;
 }
 body{
     background-color: var(--cor-fundo);
@@ -16,10 +16,10 @@ body{
 button{
     background-color: var(--cor-secundaria);
     color: var(--cor-texto);
-    border: nome;
-    berder-radius: 15px;
+    border: none;
+    border-radius: 15px;
     padding: 15px;
-    transition: background-color 0,3s;
+    transition: background-color 0.3s;
 }
 button:hover{
     background-color: var(--cor-destaque);
